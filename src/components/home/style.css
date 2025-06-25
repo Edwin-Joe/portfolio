@@ -2,3 +2,16 @@
     font-size: xx-large;
     color: white;
 }
+
+.highlight-yellow{
+    color: #FFC300;
+}
+
+.primary-button{
+    background-color: #841A0C;
+    color: white;
+    height: 45px;
+    border-style: 'solid';
+    border-color: '#841A0C';
+    border-radius: 10px;
+}

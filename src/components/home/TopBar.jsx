@@ -6,7 +6,7 @@ const TopBar = () => {
       style={{
         width: "100%",
         height: "10vh",
-        backgroundColor: "#585858",
+        backgroundColor: "#161616",
         position: "sticky",
         top: 0,
         display: "flex",
@@ -16,7 +16,10 @@ const TopBar = () => {
       }}
     >
       <div style={{ paddingLeft: "2%" }}>
-        <p className="title-main">Portfolio</p>
+        <p className="title-main">
+          <span style={{ color: "" }}>Port</span>
+          <span className="highlight-yellow">folio</span>
+        </p>
       </div>
       <div
         style={{
