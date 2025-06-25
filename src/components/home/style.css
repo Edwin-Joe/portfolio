@@ -8,8 +8,9 @@
 }
 
 .primary-button{
-    background-color: #841A0C;
-    color: white;
+    background-color: #3b3b3b;
+    font-size: medium;
+    color: #FFC300;
     height: 45px;
     border-style: 'solid';
     border-color: '#841A0C';

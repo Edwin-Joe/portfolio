@@ -28,6 +28,7 @@ const TopBar = () => {
           gap: 10,
           paddingRight: "10px",
         }}
+        className="highlight-yellow"
       >
         <div>link1</div>
         <div>link2</div>

@@ -33,8 +33,20 @@ const IntroBanner = () => {
             ReactJS | HTML | CSS | JS | Tailwind | Git | Aspiring software
             engineer with current focus on frontend web development
           </h3>
-          <button className="primary-button">Resume</button>{" "}
-          <button>Contact</button>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              gap: 100,
+              width: "100%",
+              marginTop: "40px",
+            }}
+          >
+            <button style={{ marginLeft: "80px" }} className="primary-button">
+              Resume
+            </button>
+            <button className="primary-button">Contact</button>
+          </div>
         </div>
         <div
           style={{
