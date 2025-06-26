@@ -1,3 +1,4 @@
+import About from "./About";
 import IntroBanner from "./IntroBanner";
 import TopBar from "./TopBar";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div style={{ backgroundColor: "#161616", height: "100vh" }}>
       <TopBar />
       <IntroBanner />
+      <About />
       {/* {[...Array(100)].map((_, i) => (
         <div key={i}>Test {i + 1}</div>
       ))} */}
