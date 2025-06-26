@@ -5,6 +5,7 @@ import TopBar from "./TopBar";
 const Home = () => {
   return (
     <div style={{ backgroundColor: "#161616", height: "100vh" }}>
+      <title>Portfolio📄</title>
       <TopBar />
       <IntroBanner />
       <About />
